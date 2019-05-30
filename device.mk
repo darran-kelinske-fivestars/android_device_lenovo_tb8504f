@@ -19,6 +19,9 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
     $(LOCAL_PATH)/overlay-lineage
 
+# AAPT
+PRODUCT_AAPT_PREF_CONFIG := xxhdpi
+
 # call the proprietary setup
 $(call inherit-product-if-exists, vendor/lenovo/TB8703/TB8703-vendor.mk)
 
