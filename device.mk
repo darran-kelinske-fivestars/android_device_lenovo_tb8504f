@@ -37,6 +37,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf
 
+# Shim
+PRODUCT_PACKAGES += \
+    libshims_camera
+
 # Vendor properties
 -include $(LOCAL_PATH)/vendor_prop.mk
 

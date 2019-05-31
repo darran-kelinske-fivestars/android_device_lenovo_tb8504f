@@ -46,5 +46,9 @@ TARGET_TAP_TO_WAKE_NODE := "/sys/board_properties/tpd_suspend_status"
 # SELinux
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
+# Shim
+TARGET_LD_SHIM_LIBS := \
+    /vendor/bin/mm-qcamera-daemon|libshims_camera.so
+
 # Inherit from the proprietary version
 -include vendor/lenovo/TB8703/BoardConfigVendor.mk
