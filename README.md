@@ -31,10 +31,9 @@ repo init -u git://github.com/LineageOS/android.git -b lineage-15.1
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <project name="Valera1978/android_device_samsung_gtaxlwifi" path="device/samsung/gtaxlwifi" remote="github" />
-  <project name="Valera1978/android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="github" />
-  <project name="Valera1978/android_vendor_samsung_gtaxlwifi" path="vendor/samsung/gtaxlwifi" remote="github" />
-
+  <project name="darran-kelinske-fivestars/android_device_lenovo_tb8504f" path="device/lenovo/tb8504f" remote="github" />
+  <project name="darran-kelinske-fivestars/android_kernel_lenovo_tb8504f" path="kernel/lenovo/tb8504f" remote="github" />
+  <project name="darran-kelinske-fivestars/android_vendor_lenovo_tb8504f" path="vendor/lenovo/tb8504f" remote="github" />
 
 </manifest>
 ```
