@@ -23,22 +23,22 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from rolex device
-$(call inherit-product, device/xiaomi/rolex/device.mk)
+$(call inherit-product, device/lenovo/tb8504f/device.mk)
 
-PRODUCT_BRAND := Xiaomi
-PRODUCT_DEVICE := rolex
-PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_MODEL := Redmi 4A
-PRODUCT_NAME := lineage_rolex
+PRODUCT_BRAND := Lenovo
+PRODUCT_DEVICE := tb8504f
+PRODUCT_MANUFACTURER := Lenovo
+PRODUCT_MODEL := TB-8504f
+PRODUCT_NAME := lineage_tb8504f
 
-PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+PRODUCT_GMS_CLIENTID_BASE := android-lenovo
 
-TARGET_VENDOR_PRODUCT_NAME := rolex
+TARGET_VENDOR_PRODUCT_NAME := tb8504f
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_DEVICE="rolex" \
-    PRODUCT_NAME="rolex" \
-    PRIVATE_BUILD_DESC="rolex-user 7.1.2 N2G47H V9.2.6.0.NCCMIEK release-keys"
+    TARGET_DEVICE="tb8504f" \
+    PRODUCT_NAME="tb8504f" \
+    PRIVATE_BUILD_DESC="tb8504f-user 7.1.2 N2G47H V9.2.6.0.NCCMIEK release-keys"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := "Xiaomi/rolex/rolex:7.1.2/N2G47H/V9.2.6.0.NCCMIEK:user/release-keys"
+BUILD_FINGERPRINT := "Lenovo/tb8504f/tb8504f:7.1.2/N2G47H/V9.2.6.0.NCCMIEK:user/release-keys"
