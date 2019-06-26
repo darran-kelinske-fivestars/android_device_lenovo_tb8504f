@@ -17,10 +17,10 @@
 # inherit from common tb-common
 -include device/lenovo/tb-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/lenovo/TB8703
+DEVICE_PATH := device/lenovo/TB8504F
 
 # Asserts
-TARGET_OTA_ASSERT_DEVICE := TB-8703X,TB-8703F,TB-8703R,TB-8703N,TB8703
+TARGET_OTA_ASSERT_DEVICE := TB8504F
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
@@ -51,4 +51,4 @@ TARGET_LD_SHIM_LIBS := \
     /vendor/bin/mm-qcamera-daemon|libshims_camera.so
 
 # Inherit from the proprietary version
--include vendor/lenovo/TB8703/BoardConfigVendor.mk
+-include vendor/lenovo/TB8504F/BoardConfigVendor.mk
