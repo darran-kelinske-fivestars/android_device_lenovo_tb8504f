@@ -32,16 +32,16 @@ repo init -u git://github.com/LineageOS/android.git -b lineage-16.0
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
-<manifest>
+    <manifest>
+        <project name="lenovo-devs/android_device_lenovo_TB8703" path="device/lenovo/TB8703" remote="github" />
+        <project name="lenovo-devs/android_device_lenovo_TBX704" path="device/lenovo/TBX704" remote="github" />
+        <project name="lenovo-devs/android_device_lenovo_tb-common" path="device/lenovo/tb-common" remote="github" />
+        <project name="lenovo-devs/android_kernel_lenovo_msm8953" path="kernel/lenovo/msm8953" remote="github" />
 
-  <project name="Valera1978/android_device_samsung_gtaxlwifi" path="device/samsung/gtaxlwifi" remote="github" />
-  <project name="Valera1978/android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="github" revision="lineage-16.0-upstream" />
-  <project name="Valera1978/android_vendor_samsung_gtaxlwifi" path="vendor/samsung/gtaxlwifi" remote="github" />
-
-  <project name="Valera1978/android_hardware_samsung" path="hardware/samsung" remote="github" />
-  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" />
-
+        <!-- Vendor -->
+        <project name="lenovo-devs/proprietary_vendor_lenovo" path="vendor/lenovo" remote="github" />
 </manifest>
+
 ```
 
 repo sync
