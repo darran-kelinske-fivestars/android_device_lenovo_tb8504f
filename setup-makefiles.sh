@@ -18,8 +18,8 @@
 
 set -e
 
-DEVICE=rolex
-VENDOR=xiaomi
+DEVICE=tb850f
+VENDOR=lenovo
 
 INITIAL_COPYRIGHT_YEAR=2018
 
