@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/xiaomi/rolex
+DEVICE_PATH := device/lenovo/tb8504f
 
 TARGET_SPECIFIC_HEADER_PATH += $(DEVICE_PATH)/include
 
