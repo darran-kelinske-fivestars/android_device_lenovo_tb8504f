@@ -22,4 +22,4 @@ TARGET_SPECIFIC_HEADER_PATH += $(DEVICE_PATH)/include
 include $(DEVICE_PATH)/board/*.mk
 
 # Inherit the proprietary files
--include vendor/xiaomi/rolex/BoardConfigVendor.mk
+-include vendor/lenovo/tb8504f/BoardConfigVendor.mk
