@@ -5,7 +5,7 @@ TARGET_KERNEL_CONFIG := msm8937_p3588_pcb-perf_defconfig
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 BOARD_KERNEL_PAGESIZE :=  2048
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01000000 --tags_offset 0x00000100
-TARGET_KERNEL_SOURCE := kernel/lenovo/tb8504f
+TARGET_KERNEL_SOURCE := kernel/lenovo/msm8917
 TARGET_USE_SDCLANG := true
 
 # ExFAT target
