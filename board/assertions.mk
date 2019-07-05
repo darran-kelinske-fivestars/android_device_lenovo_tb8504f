@@ -1,2 +1,2 @@
 # Assertions
-TARGET_OTA_ASSERT_DEVICE := rolex,riva
+TARGET_OTA_ASSERT_DEVICE := tb8504f

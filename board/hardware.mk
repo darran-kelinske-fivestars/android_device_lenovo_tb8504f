@@ -1,3 +1,3 @@
 # LineageOS Hardware
 BOARD_HARDWARE_CLASS += \
-    device/xiaomi/rolex/lineagehw
+    evice/lenovo/tb8504f/lineagehw
