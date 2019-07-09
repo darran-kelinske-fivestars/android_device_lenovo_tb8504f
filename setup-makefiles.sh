@@ -40,7 +40,7 @@ fi
 setup_vendor "$DEVICE" "$VENDOR" "$LINEAGE_ROOT"
 
 # Copyright headers and guards
-write_headers "tb850f"
+write_headers "tb8504f"
 
 # The standard device blobs
 write_makefiles "$MY_DIR"/proprietary-files.txt true
