@@ -18,12 +18,12 @@ Copyright (C) 2017 The LineageOS Project
 
   - Make a workspace
 
-mkdir lineage-15.1
-cd lineage-15.1
+mkdir cm-14.1
+cd cm-14.1
 
   - Do repo init & sync
 
-repo init -u git://github.com/LineageOS/android.git -b lineage-15.1
+repo init -u git://github.com/LineageOS/android.git -b cm-14.1
 
   - Create .repo/local_manifests/roomservice.xml with the following content:
 
@@ -54,6 +54,6 @@ repo sync
 
 . build/envsetup.sh
 
-  - Build cm15
+  - Build cm-14.1
 
 brunch tb8504f
