@@ -32,7 +32,7 @@ repo init -u git://github.com/LineageOS/android.git -b lineage-15.1
 <manifest>
 
   <project name="darran-kelinske-fivestars/android_device_lenovo_tb8504f" path="device/lenovo/tb8504f" remote="github" revision="lineage-15.1" />
-  <project name="darran-kelinske-fivestars/android_kernel_lenovo_tb8504f" path="kernel/lenovo/msm8917" remote="github" revision="lineage-15.1" />
+  <project name="dazza5000/android_kernel_lenovo_msm8937" path="kernel/lenovo/msm8917" remote="github" revision="tb8504f" />
   <project name="darran-kelinske-fivestars/android_vendor_lenovo_tb8504f" path="vendor/lenovo/tb8504f" remote="github" revision="lineage-15.1" />
 
 </manifest>
