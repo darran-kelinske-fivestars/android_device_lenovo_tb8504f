@@ -18,12 +18,12 @@ Copyright (C) 2017 The LineageOS Project
 
   - Make a workspace
 
-mkdir lineage-15.1
-cd lineage-15.1
+mkdir cm-14.1
+cd cm-14.1
 
   - Do repo init & sync
 
-repo init -u git://github.com/LineageOS/android.git -b lineage-15.1
+repo init -u git://github.com/LineageOS/android.git -b cm-14.1
 
   - Create .repo/local_manifests/roomservice.xml with the following content:
 
@@ -31,9 +31,9 @@ repo init -u git://github.com/LineageOS/android.git -b lineage-15.1
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <project name="darran-kelinske-fivestars/android_device_lenovo_tb8504f" path="device/lenovo/tb8504f" remote="github" revision="lineage-15.1" />
+  <project name="darran-kelinske-fivestars/android_device_lenovo_tb8504f" path="device/lenovo/tb8504f" remote="github" revision="cm-14.1" />
   <project name="dazza5000/android_kernel_lenovo_msm8937" path="kernel/lenovo/msm8917" remote="github" revision="tb8504f" />
-  <project name="darran-kelinske-fivestars/android_vendor_lenovo_tb8504f" path="vendor/lenovo/tb8504f" remote="github" revision="lineage-15.1" />
+  <project name="darran-kelinske-fivestars/android_vendor_lenovo_tb8504f" path="vendor/lenovo/tb8504f" remote="github" revision="cm-14.1" />
 
 </manifest>
 ```
@@ -54,6 +54,6 @@ repo sync
 
 . build/envsetup.sh
 
-  - Build cm15
+  - Build cm-14.1
 
 brunch tb8504f
