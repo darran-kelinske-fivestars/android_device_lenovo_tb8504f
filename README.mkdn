@@ -16,12 +16,7 @@ Camera  | 13 MP, autofocus, flash LED
 
 Copyright 2017 - The Lineage Android Operating System.
 
-
-* Description
-
-  This repository is for LineageOS on Lenovo Tab 4 (tb8504f)
-
-* How To Build LineageOS for Lenovo Tab 4 
+* How To Build LineageOS for Lenovo Tab 4 8
 
   - Make a workspace
 
