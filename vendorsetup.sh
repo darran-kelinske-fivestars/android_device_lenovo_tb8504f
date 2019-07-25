@@ -1,2 +1,2 @@
-add_lunch_combo lineage_lv517-eng
-add_lunch_combo lineage_lv517-userdebug
+add_lunch_combo lineage_tb8504f-eng
+add_lunch_combo lineage_tb8504f-userdebug

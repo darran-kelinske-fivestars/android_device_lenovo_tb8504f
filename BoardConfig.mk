@@ -17,18 +17,18 @@
 # inherit from common sd4xx-common
 include device/lge/sd4xx-common/BoardConfigCommon.mk
 
-LOCAL_PATH := device/lge/lv517
+LOCAL_PATH := device/lenovo/tb8504f
 
 # kernel
-TARGET_KERNEL_CONFIG := lineage_lv517_defconfig
+TARGET_KERNEL_CONFIG := lineageos_tb8504f_defconfig
 
 # Filesystem
 BOARD_FLASH_BLOCK_SIZE := 131072 # (BOARD_KERNEL_PAGESIZE * 64)
-BOARD_BOOTIMAGE_PARTITION_SIZE := 33554432
-BOARD_RECOVERYIMAGE_PARTITION_SIZE := 33554432
-BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3535798272
-BOARD_USERDATAIMAGE_PARTITION_SIZE := 10887364608
-BOARD_CACHEIMAGE_PARTITION_SIZE := 524288000
+BOARD_BOOTIMAGE_PARTITION_SIZE     := 67108864
+BOARD_RECOVERYIMAGE_PARTITION_SIZE := 67108864
+BOARD_SYSTEMIMAGE_PARTITION_SIZE   := 4080218112
+BOARD_USERDATAIMAGE_PARTITION_SIZE := 10044808704
+BOARD_CACHEIMAGE_PARTITION_SIZE    := 268435456
 TARGET_USERIMAGES_USE_EXT4 := true
 
 # FM
@@ -52,5 +52,5 @@ TARGET_SYSTEM_PROP += $(LOCAL_PATH)/system.prop
 TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/input/lge_touch/lpwg_notify"
 
 # inherit from the proprietary version
--include vendor/lge/lv517/BoardConfigVendor.mk
--include device/lge/common/BoardConfigCommon.mk
+-include vendor/lenovo/tb8504f/BoardConfigVendor.mk
+-include device/lenovo/tb8504f/BoardConfigCommon.mk

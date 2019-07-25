@@ -18,25 +18,25 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from lv517 device
-$(call inherit-product, device/lge/lv517/device.mk)
+# Inherit from tb8504f device
+$(call inherit-product, device/lenovo/tb8504f/device.mk)
 
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 $(call inherit-product, vendor/cm/config/telephony.mk)
 
 # Set those variables here to overwrite the inherited values.
-BOARD_VENDOR := lge
-PRODUCT_DEVICE := lv517
-PRODUCT_NAME := lineage_lv517
-PRODUCT_BRAND := lge
-PRODUCT_MODEL := LG K20 Plus
+BOARD_VENDOR := lenovo
+PRODUCT_DEVICE := tb8504f
+PRODUCT_NAME := lineage_tb8504f
+PRODUCT_BRAND := lenovo
+PRODUCT_MODEL := Lenovo TB-8504F
 PRODUCT_MANUFACTURER := lge
 
 # Overlays (inherit after vendor/cm to ensure we override it)
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-PRODUCT_GMS_CLIENTID_BASE := android-lge
+PRODUCT_GMS_CLIENTID_BASE := android-lenovo
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_FINGERPRINT="T-Mobile/lv517_tmo_us/lv517:7.1.2/NRD90U/171071514d722:user/release-keys" \

@@ -18,8 +18,8 @@
 set -e
 
 # Required!
-DEVICE=lv517
-VENDOR=lge
+DEVICE=tb8504f
+VENDOR=lenovo
 
 # Load extractutils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
