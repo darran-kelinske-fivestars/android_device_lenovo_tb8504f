@@ -15,3 +15,52 @@ Display | 720 x 1280 pixels, 5.3 inches (~277 ppi pixel density)
 Camera  | 13 MP, autofocus, flash LED
 
 Copyright 2017 - The Lineage Android Operating System.
+
+
+* Description
+
+  This repository is for LineageOS on Lenovo Tab 4 (tb8504f)
+
+* How To Build LineageOS for Lenovo Tab 4 
+
+  - Make a workspace
+
+mkdir cm-14.1
+cd cm-14.1
+
+  - Do repo init & sync
+
+repo init -u git://github.com/LineageOS/android.git -b cm-14.1
+
+  - Create .repo/local_manifests/roomservice.xml with the following content:
+
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <project name="darran-kelinske-fivestars/android_device_lenovo_tb8504f" path="device/lenovo/tb8504f" remote="github" revision="cm-14.1" />
+  <project name="dazza5000/android_kernel_lenovo_msm8937" path="kernel/lenovo/msm8917" remote="github" revision="tb8504f" />
+  <project name="darran-kelinske-fivestars/android_vendor_lenovo_tb8504f" path="vendor/lenovo/tb8504f" remote="github" revision="cm-14.1" />
+
+</manifest>
+```
+
+repo sync
+
+  - Copy proprietary vendor files
+
+  There are two options to to that. Connect your device with adb enabled and run:
+
+./extract-files.sh
+
+  Or if you have the system image unpacked on your disk, then simply run:
+
+    STOCK_ROM_DIR=/path/to/system ./extract-files.sh
+
+  - Setup environment
+
+. build/envsetup.sh
+
+  - Build cm-14.1
+
+brunch tb8504f
