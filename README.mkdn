@@ -1,8 +1,5 @@
-Device Tree for LG K20 Plus
+Device Tree for Lenovo TB-8504X/
 ==============================================
-
-The K20 Plus (codenamed _"lv517"_) is a mid-range smartphone from LG Electronics.
-It was released on December, 2017.
 
 Basic   | Spec Sheet
 -------:|:-------------------------
@@ -18,5 +15,3 @@ Display | 720 x 1280 pixels, 5.3 inches (~277 ppi pixel density)
 Camera  | 13 MP, autofocus, flash LED
 
 Copyright 2017 - The Lineage Android Operating System.
-
-![LG K20 Plus](https://camo.githubusercontent.com/2ad8117aa32c1d8b5dbd62e51a478bf16991cd33/68747470733a2f2f64316a62697035357979697478722e636c6f756466726f6e742e6e65742f75706c6f6164732f323031372f30382f31353135323430302f4c472d4b32302d506c75732d542d4d6f62696c652d70726573732d4b4b2d3136303078313238312e6a7067 "LG K20 Plus")
