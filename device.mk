@@ -17,10 +17,10 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/lge/lv517/lv517-vendor.mk)
+$(call inherit-product-if-exists, vendor/lenovo/lv517/lv517-vendor.mk)
 
 # common msm8937
-$(call inherit-product, device/lge/sd4xx-common/sd4xx.mk)
+$(call inherit-product, device/lenovo/sd4xx-common/sd4xx.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
