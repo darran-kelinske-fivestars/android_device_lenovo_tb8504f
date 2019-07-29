@@ -15,7 +15,7 @@
 #
 
 # inherit from common sd4xx-common
-include device/lge/sd4xx-common/BoardConfigCommon.mk
+include device/lenovo/sd4xx-common/BoardConfigCommon.mk
 
 LOCAL_PATH := device/lenovo/tb8504f
 
